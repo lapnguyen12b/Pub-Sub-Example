@@ -4,6 +4,6 @@ export interface Subscriber {
 
 export class ConcreteSubscriber implements Subscriber {
   update(data: any): void {
-    console.log(`Received data: ${data}`);
+    console.log(`Send message: ${data}`);
   }
 }
